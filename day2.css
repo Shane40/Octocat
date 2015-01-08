@@ -1,0 +1,83 @@
+/* This is Tim's code
+
+
+
+
+
+
+
+
+
+*/
+.octodex {
+}
+.octocat {
+float: left;
+width: 400px;
+}
+
+.octocat img {
+	width: 375px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+.image-footer {
+	position: relative;
+	width: 375px;
+	height: 50px;
+	border-bottom: 1px solid grey;
+}
+.image-footer:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #d5dae0 transparent transparent transparent;
+	top: -4px;
+	right: 0px;
+}
+.image-number:before {
+  padding-top: 0px;
+  float: left;
+  content: "#";
+  font-size: 15px;
+  font-weight: bold;
+}
+.image-number {	
+	padding-top: 15px;
+  float: left;
+  color: lightgrey; 
+	font-size: 15px;
+  font-weight: bold;
+}
+.image-caption {
+	padding-top: 15px;
+	float: right;
+	color: lightgrey;
+	font-weight: bold;
+	font-size: 15px;
+}
+.authors {
+	padding-top: 0px;
+	float: right;
+}
+.authors img {
+	width: 30px;
+	border: none;
+	border-radius: 3px;
+	margin-left: 4px
+}
+a:link {
+	text-decoration: none;
+	color: black;
+}
+li {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+}
+
